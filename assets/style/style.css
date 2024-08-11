@@ -1,0 +1,284 @@
+/* navbar start */
+.navbar-toggler{
+    border: none;
+    font-size: 25px;
+}
+.navbar ul li a{
+    position: relative;
+}
+.navbar-nav li{
+    display: inline-block;
+    padding: 0 20px 0 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+}
+.navbar-nav  li a::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: rosybrown;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.navbar-nav  li a:hover::after{
+    width: 100%;
+}
+.offcanvas-body ul li{
+   list-style-type: none; 
+}
+.offcanvas-body ul li a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    color: black;
+
+}
+
+.offcanvas-body ul li a:hover{
+    color: brown;
+}
+/* navbar end */
+
+
+/* banner1 start */
+#banner1 .contains{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+#banner1 .contains h3{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 82.82px;
+}
+#banner1 .contains h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+#banner1 .contains p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+}
+#banner1 .btn-box a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #FFCC00;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #000;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-right: 30px;
+    box-shadow: 2px 2px 8px #b6a976;
+    transition: 0.5s;
+}
+#banner1 .btn-box .test{
+    padding: 16px 80px 17px 50px;
+    background-color: #ffff;
+    border: 2px solid black;
+}
+#banner1 .btn-box .test2{
+    padding: 16px 54px 17px 25px;
+    background-color: #ffff;
+    border: 2px solid black;
+}
+#banner1 .btn-box .test2:hover{
+background-color: #FFCC00;
+color: #ffff;
+}
+#banner1 .btn-box .test:hover{
+    background-color: #FFCC00;
+    color: #ffff;
+}
+#banner1 .icon h4{
+    margin-top: 80px;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 39.6px;
+}
+
+#banner1 .icon span a{
+    color: #000;
+    padding: 10px 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 19px;
+    background-color: #F4F3F3;
+    margin-right: 20px;
+}
+#banner1 .icon2 span a{
+    font-size: 40px;
+    display: inline-block;
+    color: #000;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* banner1 end */
+
+/* about start */
+#about{
+    background-image: url(../images/banner2\ bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#about .contains{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#about .contains h4{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64.7px;
+}
+#about .contains p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+}
+#about .btn-box{
+    margin-top: 50px;
+}
+#about .btn-box a{
+    border: 2px solid black;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32.4px;
+    border-radius: 20px;
+    margin-right: 30px;
+color: #000;
+box-shadow: 2px 2px 8px #fab1a0;
+
+}
+#about .btn-box .test{
+    padding: 33px 80.5px;
+
+}
+#about .container{
+    position: relative;
+}
+#about .container .test1{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* about end */
+
+/* card start */
+#card .pixel{
+    text-align: center;
+box-shadow: 2px 2px 8px #F4F3F3;
+}
+
+#card .pixel:hover{
+background-color: #FFCC00;
+color: #F4F3F3;
+transition: 0.5s;
+}
+
+#card .pixel h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 39.6px;
+    
+}
+#card .pixel p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-family: 16px;
+    line-height: 30.4px;
+   color: #7A7A7A;
+   padding: 60px 80px;
+}
+/* card end */
+
+/* brand start */
+#brand{
+    background-image: url(../images/banner2\ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+#brand .contains{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#brand .contains h4{
+    font-family:  "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56.94px;
+    margin-bottom: 26px;
+}
+#brand .contains p{
+    font-family:  "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34.2px;
+}
+#brand .btn-box{
+    margin-top: 50px;
+}
+#brand .btn-box a{
+    border: 2px solid #000;
+   text-decoration: none;
+   display: inline-block;
+   font-family:  "Poppins", sans-serif;
+   font-weight: 500;
+   font-size: 20px;
+   color: #000;
+   border-radius: 20px;
+   margin-right: 30px;
+   box-shadow: 2px 2px 8px #fab1a0; 
+}
+#brand .btn-box .test{
+    padding: 15.5px 45px;
+}
+
+#brand .container{
+    position: relative;
+}
+#brand .container .test1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-50%,-50%);
+}
+
+
+
+/* brand end */
